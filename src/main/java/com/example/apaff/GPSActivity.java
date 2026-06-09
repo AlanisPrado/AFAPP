@@ -76,7 +76,7 @@ public class GPSActivity extends AppCompatActivity {
                 });
     }
 
-    // 🌍 ENDEREÇO
+    
     private void getAddress(double lat, double lon) {
         Geocoder geocoder = new Geocoder(this, Locale.getDefault());
 
@@ -92,7 +92,7 @@ public class GPSActivity extends AppCompatActivity {
         }
     }
 
-    // 🌦 CLIMA (API)
+    
     private void getWeather(double lat, double lon) {
 
         RetrofitClient.getApi().getWeather(lat, lon, true)
