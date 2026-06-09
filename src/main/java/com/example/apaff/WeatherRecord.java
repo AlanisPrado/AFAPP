@@ -8,7 +8,7 @@ public class WeatherRecord {
     public double temperature;
     public double windspeed;
     public int weathercode;
-    public String note; // ⭐ IMPORTANTE
+    public String note; 
 
     public WeatherRecord() {}
 
@@ -21,6 +21,6 @@ public class WeatherRecord {
         this.temperature = temperature;
         this.windspeed = windspeed;
         this.weathercode = weathercode;
-        this.note = ""; // ⭐ evita null
+        this.note = ""; 
     }
 }
