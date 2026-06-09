@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="Tela principal do aplicativo de clima e localização">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/latitudeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude"
+            android:textSize="18sp"
+            android:contentDescription="Texto de latitude"/>
+
+        <TextView
+            android:id="@+id/longitudeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude"
+            android:textSize="18sp"
+            android:contentDescription="Texto de longitude"/>
+
+        <TextView
+            android:id="@+id/enderecoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Endereço"
+            android:textSize="18sp"
+            android:contentDescription="Texto de endereço atual"/>
+
+        <TextView
+            android:id="@+id/climaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clima"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:contentDescription="Informações do clima atual"/>
+
+        <Button
+            android:id="@+id/btnBuscarClima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar Clima"
+            android:contentDescription="Botão para buscar clima atual"/>
+
+        <Button
+            android:id="@+id/btnVerHistorico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Histórico"
+            android:contentDescription="Botão para abrir histórico de consultas"/>
+
+    </LinearLayout>
+
+</ScrollView>

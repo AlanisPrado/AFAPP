@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "615382207175",
+    "project_id": "affap-f6b1f",
+    "storage_bucket": "affap-f6b1f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615382207175:android:99816c343d72afdda80ce2",
+        "android_client_info": {
+          "package_name": "com.example.apaff"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg5VwG7fzntbjYZjinWE5N2nnHaTl8nIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
